@@ -47,6 +47,7 @@ def main(argv):
 
 	depressed_list = [user_dict[key] for key in user_dict if user_dict[key].isDepressed]
 
+	"""
 	#Read through the item level file
 	header = item_level_file.readline()
 	for each_line in item_level_file:
@@ -56,10 +57,10 @@ def main(argv):
 		ethnicity = x[23]
 		marital_status = x[24]
 		par_together = x[25]
+	"""
 
 	#Dump user_dict into a pickle
 	pickle.dump(user_dict, open(user_dict_p, 'wb'))
-
 
 
 

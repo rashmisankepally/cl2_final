@@ -7,5 +7,6 @@ export SCRIPTS_HOME="${PROJECT_HOME}"/scripts
 export CODE_HOME="${PROJECT_HOME}"/code
 export GEN_HOME="${PROJECT_HOME}"/generated_files
 export GENP_HOME="${PROJECT_HOME}"/generated_pickles
+export OTHER_HOME="${PROJECT_HOME}"/other_data
 
 export MYPDEP_HOME="${DATA_HOME}"/mypersonality_depression
