@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# running command: $./removeDup /path to FB statuses/
 mkdir -p ./Depression_nondupe
 
 for k in $(find $1 -maxdepth 1 -type f)
