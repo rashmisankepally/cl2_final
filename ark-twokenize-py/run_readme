@@ -1,0 +1,7 @@
+Single file Eg:
+$python twokenize.py d5380466e18422d7b2c2d54d57cbbde2_d.txt > out.txt
+
+For all files in a folder:
+$sh tokenize_Script.sh #path to the folder#
+
+output for each file appears in ./Depression_tokenized/originalfilename_tokenized.txt
